@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navigation {
+    height: 75px;
+    background-color: #212529;
+    border-bottom-left-radius:35px ;
+    border-bottom-right-radius:35px ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1;
+}
+.navigation .name {
+    color: #ffffff;
+    font-size: 36px;
+    padding-top: 19px;
+}
+.navigation .name:hover {
+    color: #ffd500;
+    transition: 0.7s;
+}
+.navigation li {
+    display: inline;
+    padding: 12px;
+    color: #ffffff;
+}
+.navigation ul {
+    padding-top: 30px;
+    padding-left: 103px;
+}
+.navigation ul a {
+    text-decoration: none;
+}
+.navigation ul .download {
+    font-size: 20px;
+    background-color: #ffd500;
+    height: 20px;
+    width: 170px;
+    color: #212529;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 35px;
+    border-radius: 35px;
+}
+.navigation ul .download:hover {
+    font-size: 20px;
+    background-color: #212529;
+    width: 170px;
+    color: #ffd500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 35px;
+    border-radius: 35px;
+    transition: 0.7s;
+}
+.predstavljanje{
+    height: 650px;
+}
+.predstavljanje img {
+    height: 650px;
+    width: 440px;
+}
+.predstavljanje .ime {
+    background-color: #212529;
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 312px;
+    text-align: center;
+    width: 371px;
+    margin-left: 138px;
+    border-radius: 35px;
+    height: 78px;
+    padding: 7px;
+}
+.predstavljanje .ime:hover{
+    border: 1px solid #212529;
+    color: #212529;
+    transition: 0.7s;
+    background-color: #ffffff;
+}
+.predstavljanje .email {
+    background-color: #ffd500;
+    color: #212529;
+    font-size: 35px;
+    margin-top: 30px;
+    text-align: center;
+    width: 491px;
+    margin-left: 138px;
+    height: 78px;
+    padding-top: 11px;
+    border-radius: 35px
+}
+.predstavljanje .email:hover{
+    background-color: #212529;
+    color: #ffd500;
+    transition: 0.7s;
+}
+.omeni{
+    margin-top: 90px;
+    height: 630px;
+}
+.omeni img {
+    width: 445px;
+    height: 445px;
+    border-radius: 35px;
+}
+.omeni h1 {
+    text-align: left;
+    color: #212529;
+    font-size: 56px;
+}
+.omeni .prvi {
+    margin-top: 45px;
+    text-align: left;
+    color: #96a2a9;
+    font-size: 19px;
+}
+.omeni .drugi {
+    margin-top: 42px;
+    text-align: left;
+    color: #96a2a9;
+    font-size: 19px;
+}
+.omeni ul {
+    margin-top: 45px;
+}
+.omeni ul li .a {
+    margin-right: 100px;
+}
+.omeni ul li {
+    list-style-type: none;
+}
+.omeni ul li .b {
+    margin-right: 82px;
+}
+.omeni ul li .c {
+    margin-right: 140px;
+}
+.omeni ul li .d {
+    margin-right: 162px;
+}
+.kolege {
+    height: 600px;
+    background-color: #f9f9f9;
+}
+.kolege h1 {
+    text-align: center;
+    padding-top: 73px;
+}
+.kolege .kolega1 {
+    height: 315px;
+    width: 252px;
+    margin-top: 75px;
+}
+.kolege .kolega2 {
+    height: 315px;
+    width: 252px;
+    margin-top: 75px;
+}
+.kolege .kolega3 {
+    height: 315px;
+    width: 252px;
+    margin-top: 75px;
+}
+.kolege .kolega4 {
+    height: 315px;
+    width: 252px;
+    margin-top: 75px;
+}
+.kolege .animacija .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #212529;
+    overflow: hidden;
+    width: 270px;
+    height: 0;
+    transition: .7s ease;
+}
+.kolege .animacija:hover .overlay {
+    height: 315px;
+}
+.kolege .animacija .overlay .text {
+    color: #ffd500;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.utisci {
+    background-color: #f9f9f9;
+    height: 515px;
+}
+.utisci h1 {
+    text-align: center;
+    padding-top: 110px;
+}
+.utisci .covjek1 {
+    width: 97px;
+    height: 102px;
+    border-radius: 50px;
+    margin-left: 101px;
+    margin-bottom: 21px;
+}
+.utisci .recenice {
+    font-size: 22px;
+}
+.utisci .ime1 {
+    margin-top: 60px;
+    font-size: 35px;
+    padding-left: 98px;
+}
+.forma{
+    height: 700px;
+}
+.forma form {
+    width: 761px;
+    margin-top: 130px;
+    height: 563px;
+    background-color: #212529;
+    border: 0.5px solid #ffd500;
+    padding-left: 26px;
+    margin-left: 134px;
+}
+.forma form input {
+    height: 50px;
+    width: 700px;
+}
+.forma form label {
+    margin-top: 30px;
+    color: #ffffff;
+
+}
+.forma form textarea {
+    height: 200px;
+    width: 700px;
+}
+.forma button {
+    width: 190px;
+    height: 55px;
+    margin-left: 248px;
+    background-color: #ffd500;
+    border-radius: 35px;
+}
+.forma button:hover {
+    width: 190px;
+    height: 55px;
+    margin-left: 248px;
+    background-color: #96a2a9;
+    color: #ffd500;
+    transition: 0.7s;
+    border-radius: 35px;
+}
+.forma h1 {
+    text-align: center;
+    padding-top: 120px;
+}
+.forma .zavrsetak {
+    padding-top: 92px;
+    padding-left: 103px;
+    font-size: 23px;
+}
+.footer {
+    height: 75px;
+    background-color: #212529;
+}
+.footer pre {
+    color: #f9f9f9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
